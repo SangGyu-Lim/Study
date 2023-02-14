@@ -1,0 +1,124 @@
+http://sharksym.egloos.com/5313885
+
+cocos new Test -p kr.ac.sejong -l cpp -d D:\Develop\Project
+
+mklink /d cocos2d D:\Develop\cocos2d-x\cocos2d-x-3.15.1
+
+cocos compile -p android --android-studio
+
+http://blackotter.tistory.com/55
+
+터치하여 객체 클릭할 때 찾기
+http://jsryu.tistory.com/184
+http://huneyboy.blogspot.kr/2013/10/cocos2dx.html
+
+콜펑션 액션
+http://zzaps.tistory.com/189
+
+time
+http://discuss.cocos2d-x.org/t/get-time-in-cocos2d-x-3-1/14744/3
+
+updater
+http://zzaps.tistory.com/152
+
+timeval
+http://www.programering.com/a/MTOxkzMwATE.html
+
+node_js 
+https://westwoodforever.blogspot.kr/2013/03/cocos2d-x-nodejs-http.html
+
+http://legacy.tistory.com/88
+
+node_js file_io
+http://mudchobo.tistory.com/category/Node.js
+
+간단하고 설명이 잘되있는 파일입출력
+https://opentutorials.org/module/938/7373
+
+파워포인트 설정
+9.07 * 16.12
+
+게임 해상도
+540 * 960
+
+layer 스크롤
+http://blackotter.tistory.com/92
+
+box2d 기본 예제
+http://www.inven.co.kr/board/powerbbs.php?come_idx=5023&name=nicname&keyword=%EB%82%B4%ED%8F%B0%EC%A0%A4%EB%AC%B4%EA%B1%B0%EC%9B%8C&iskin=indie&l=20
+
+cocos2d 기본 물리관련 셋팅하는 법
+http://3plab.tistory.com/entry/%EB%AC%BC%EB%A6%AC-%EC%97%94%EC%A7%84-%EA%B8%B0%EB%B3%B8-%EC%98%88%EC%A0%9C
+
+android.mk classes 자동 설정
+http://dabin.playgm.co.kr/70
+// 코드
+FILE_LIST += $(wildcard $(LOCAL_PATH)/../../../Classes/*.cpp)
+LOCAL_SRC_FILES := hellocpp/main.cpp $(FILE_LIST:$(LOCAL_PATH)/%=%)
+
+터치 통과
+http://discuss.cocos2d-x.org/t/cocos2d-x-3-how-to-make-sprite-swallow-all-touches-only-on-it/15094
+http://cocos2d-x.org/wiki/EventDispatcher_Mechanism
+
+nodejs db접속
+http://poiemaweb.com/nodejs-mysql
+
+// json parsing
+http://devluna.blogspot.kr/2015/09/jsoncpp-c-json-parsing.html
+
+// node.js 기초
+https://www.slideshare.net/WooGenius/nodejs-40451587
+
+// client json -> server data parsing
+https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/
+
+// node.js session 관리
+http://jungjim.tistory.com/58
+
+// sql injection 방어
+string을 그냥 생성하는 것보다 mysql.escape라는 메서드를 사용하는 것이 좋음.
+boolean이나 array와 같은 데이터형을 SQL문장으로 적절하게 변환해줄뿐만 아니라 mysql.escape는 SQL injection attack을 방어.
+connection.query('select * from users where userid='+mysql.escape(req.params.userid))
+
+// database result json 변환법
+https://www.bountysource.com/issues/39604063-how-to-append-new-object-property-name-in-a-result-row-data-packet-query
+
+// mysql multi query 처리
+https://stackoverflow.com/questions/23266854/node-mysql-multiple-statement-in-one-query
+
+// user data 저장하는 방법
+http://injakaun.tistory.com/111
+
+// local data 접근
+https://stackoverflow.com/questions/22982107/cocos2d-x-android-loading-files-from-the-assets-folder
+
+// google ads
+https://github.com/gomfactory/AdPie-Android-SDK/wiki/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%84%A4%EC%A0%95
+
+// android studio multidex error
+https://m.blog.naver.com/PostView.nhn?blogId=beodeulpiri&logNo=220789568152&proxyReferer=http%3A%2F%2Fwww.google.co.kr%2Furl%3Fsa%3Dt%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dweb%26cd%3D8%26ved%3D0ahUKEwiDz-a4vs7VAhVDppQKHUpNBNkQFghaMAc%26url%3Dhttp%253A%252F%252Fm.blog.naver.com%252Fbeodeulpiri%252F220789568152%26usg%3DAFQjCNG8Dfe6vfxaJSJdLhUby1VKW1RB9g
+
+//구글 연동 글
+http://addgame.blog.me/220272769153
+http://3plab.tistory.com/entry/cocos2dx-Google-Play-%EC%97%B0%EB%8F%99%EB%B2%95
+
+//jni 사용법 나와있는 사이트
+http://darkfrog.tistory.com/entry/%ED%8D%BC%EC%98%A8-%EC%9E%90%EB%A3%8C-Unity-Cocos2d-%ED%8A%9C%ED%86%A0%EB%A6%AC%EC%96%BC
+
+// jni java -> cocos2d 호출
+http://lhh3520.tistory.com/147
+
+//SHA1 키 얻어오기 
+keytool -exportcert -alias your key alias name -keystore keystore location  -list -v
+
+//계정 인증 관련 이슈
+https://android-developers.googleblog.com/2016/01/play-games-permissions-are-changing-in.html
+
+//google api for android
+https://developers.google.com/android/reference/com/google/android/gms/auth/account/WorkAccount
+
+// 토큰을 써야하는 이유
+https://velopert.com/2350
+
+// 토큰 가져오는 방법
+https://developers.google.com/identity/sign-in/android/backend-auth

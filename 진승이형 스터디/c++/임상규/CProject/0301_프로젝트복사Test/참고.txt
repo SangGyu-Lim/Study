@@ -1,0 +1,8 @@
+프로젝트를 복사할때
+filters 파일에서
+.vcxproj.filters로 수정시 프로젝트에서 리소스, 소스, 헤더파일 폴더들이 남아있으나,
+.filters 로 수정시 리소스, 소스, 헤더파일 폴더들이 지워지고 .h, .cpp 파일들만 남는다.
+
+ex) '03_프로젝트복사' 프로젝트를  '0301_프로젝트복사Test' 로 복사해줄때
+03_프로젝트복사.vcxproj.filters 에서
+0301_프로젝트복사Test.vcxproj.filters 와 0301_프로젝트복사Test.filters 의 차이점.

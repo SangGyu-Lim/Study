@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+    <STRING>
+        <DATA index="0">중국산 원두</DATA>
+        <DATA index="1">그냥 원두</DATA>
+        <DATA index="2">고양이 똥 원두</DATA>
+        <DATA index="3">소젖</DATA>
+        <DATA index="4">서울 우유</DATA>
+        <DATA index="5">모유</DATA>
+        <DATA index="6">4대강 얼음</DATA>
+        <DATA index="7">아리수 얼음</DATA>
+        <DATA index="8">북극 얼음</DATA>
+        <DATA index="9">No 원두</DATA>
+        <DATA index="10">No 우유</DATA>
+        <DATA index="11">No 얼음</DATA>
+    </STRING>
+</ROOT>

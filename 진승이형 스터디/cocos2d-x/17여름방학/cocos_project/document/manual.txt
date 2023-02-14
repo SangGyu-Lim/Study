@@ -1,0 +1,38 @@
+http://sharksym.egloos.com/5313885
+
+/* Test 프로젝트 기준 */
+D:\Dev\cocos2d-x\tools\cocos2d-console\bin 안에서
+cocos new Test -p kr.ac.sejong -l cpp -d D:\Dev\Project
+
+D:\Dev\Project\Test 안에서
+mklink /d cocos2d D:\Dev\cocos2d-x
+
+D:\Dev\Project\Test 안에서
+cocos compile -p android --android-studio
+
+터치하여 객체 클릭할 때 찾기
+http://jsryu.tistory.com/184
+http://huneyboy.blogspot.kr/2013/10/cocos2dx.html
+
+win10 관리자 권한 cmd 켜기
+Ctrl + Shift + Enter
+
+http://injakaun.tistory.com/95
+http://www.androidpub.com/2240999
+http://hyunssssss.tistory.com/190
+http://egloos.zum.com/mightyfine/v/294494
+http://gods2000.tistory.com/entry/cocos2dx-30-%EC%97%90%EC%84%9C-Layer-touch-%EC%B0%A8%EB%8B%A8-%EB%B0%A9%EB%B2%95
+
+
+
+360	640
+36	64
+18	32
+9	16
+
+19.05	33.866
+
+432	768
+
+3.46	0.15	1.5	0.15	1.5	0.16	
+9.07	0.7	3.5	0.7	3.5	0.67
