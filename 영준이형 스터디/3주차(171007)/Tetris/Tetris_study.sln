@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tetris_study", "Tetris_study.csproj", "{232327B7-A17A-243E-85A1-59473C7BA858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tetris_study.Editor", "Tetris_study.Editor.csproj", "{A3F1770B-B40E-E54E-4588-14F34526C618}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{232327B7-A17A-243E-85A1-59473C7BA858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232327B7-A17A-243E-85A1-59473C7BA858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232327B7-A17A-243E-85A1-59473C7BA858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232327B7-A17A-243E-85A1-59473C7BA858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F1770B-B40E-E54E-4588-14F34526C618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F1770B-B40E-E54E-4588-14F34526C618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F1770B-B40E-E54E-4588-14F34526C618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F1770B-B40E-E54E-4588-14F34526C618}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-tetris-server",
+  "version": "0.0.0",
+  "description": "NodejsTetrisServer",
+  "main": "server.js",
+  "author": {
+    "name": "SJCE_5"
+  }
+}
